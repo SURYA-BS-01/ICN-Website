@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-slate-400 m-0 p-0 text-white h-full p-2 relative'>
+    <div className='bg-violet-100 m-0 p-0 text-white h-full p-2 relative'>
       <Router>
         <Routes>
           <Route exact path='/' element = {<Home/>} />
